@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta Russa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/1a5be477e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="src/midias/joker.png" alt="">
+        <h1>Roleta Russa</h1>
+        <div id="setup">
+           <input type="text" id="player1" class="inputs" placeholder="Jogador 1"> 
+           <i class="fa-solid fa-x"></i>
+           <input type="text" id="player2" class="inputs" placeholder="Jogador 2"> 
+          
+        </div>
+        <div id="game">
+            <button id="start" class="bnt">Roletar</button>
+            <button id="play" class="bnt">Jogar</button>
+            <button id="reset" class="bnt">Reiniciar</button>
+            <p id="result"></p>
+            <img id="deathImage" src="src/midias/arma.jpg" alt="Morte" style="display: none;"><!-- !!!!!!! -->
+
+        </div>
+        <script src="src/renderer.js"></script>
+    
+    </body>
+    </html>
+    
