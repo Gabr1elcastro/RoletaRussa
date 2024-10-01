@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
+}
+
+button {
+  margin: 10px 0;
+}
+
+.inputs {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bnt {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.bnt:hover {
+  background-color: rgb(35, 33, 33);
+  transition: transform 0.3ms ease;
+  transform: scale(1.1);
+}
+
+#deathImage {
+  width: 800px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin: 20px 0;
+  display: none; /* Inicialmente oculto !!!!!!!!!*/
+}
